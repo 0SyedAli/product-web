@@ -1,0 +1,12 @@
+.gradient-custom {
+  background-color: #0d0628;
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  stroke: #fff;
+  position: relative;
+  z-index: 99999;
+}
+.carousel-indicators {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}

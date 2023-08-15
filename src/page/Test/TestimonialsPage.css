@@ -1,0 +1,12 @@
+.testimonial-inner-item h3, .testimonial-inner-item p{
+  color: #fff!important;
+}
+.animate-left-to-right {
+  animation: slideRightToLeft 20s linear infinite;
+  animation-play-state: running;
+}
+
+.testimonial-inner-item:hover .animate-left-to-right {
+  animation-play-state: paused;
+}
+

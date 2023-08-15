@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Vary";
+    src: url("../../fonts/monotype-vary-light.otf") format("woff2");
+  }
+  
+  .product-slides2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2.5rem 0 2.5rem 0;
+  }
+  .product-slides2 .main-slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-slides2 .left-slides {
+      width: 50%;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .product-slides2 .left-slides img {
+    width: auto;
+    height: 450px;
+  }
+  .product-slides2 .right-slides h4 {
+      font-size: 1.6rem;
+      font-family: 'Vary',sans-serif!;
+      font-weight: 700;
+  }
+  .product-slides2 .right-slides p {
+      font-size: 1.2rem;
+      font-family: sans-serif!;
+
+  }
+  .product-slides2 .right-slides {
+    padding-right: 7rem;
+    z-index: 9999;
+    width: 50%;
+
+  }
+  /* .product-slides2 .right-slides {
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  } */
+  /* @media (max-width:1200px) {
+    .product-slides2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    }
+    .product-slides2 .left-slides {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 6rem;
+    }
+    
+    .product-slides2 .right-slides {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  
+   */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /* @media (max-width: 650px) {
+      .Subscribtion h1 {
+        font-size: 6vw;
+        font-weight: 800;
+      }
+      .subscribe-form h5 {
+        font-size: 5vw !important;
+        margin-bottom: 1rem !important;
+      }
+      .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .subscribe-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .subscribe-form h5 span{
+        display: none;
+      }
+      .subscribe-form form input{
+        padding: 0 20px!important;
+        height: 60px!important;
+      }
+      .subscribe-form form input::placeholder{
+        color: #232424;
+        font-size: 13px;
+      }
+      .Subscribtion .subscribe-form form button {
+        position: relative;
+        right: 0;
+        margin-top: 1.3rem;
+        box-shadow: rgba(170, 56, 219, 0.451) 0 -25px 18px -14px inset,
+          rgba(170, 56, 219, 0.451) 0 1px 2px, rgba(170, 56, 219, 0.451) 0 2px 4px,
+          rgba(154, 44, 187, 0.25) 0 4px 8px, rgba(170, 56, 219, 0.451) 0 8px 16px,
+          rgba(185, 44, 187, 0.25) 0 16px 32px;
+      }
+      .Subscribtion .btn-sn {
+        padding: 20px 20px;
+        font-size: 15px;
+      }
+    }
+     */

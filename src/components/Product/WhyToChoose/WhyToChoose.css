@@ -1,0 +1,96 @@
+.why-to-choose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 0;
+  background-image: linear-gradient(
+    45deg,
+    #752996 -20%,
+    #160045 60%,
+    #571884 110%
+  );
+}
+.why-to-choose-container .head-pi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.why-to-choose-container .head-pi .head-top-pi {
+  position: relative;
+}
+
+.why-to-choose-container .head-pi h5 span {
+  font-size: 1.3vw;
+  font-family: "Vary-bold-1", sans-serif;
+  font-weight: 900;
+  color: #dddcde;
+}
+.why-to-choose-container .head-pi .head-top-pi div {
+  width: 1.6vw;
+  border-radius: 0.5vw;
+  height: 0.24vw;
+  background: #dddcde;
+  position: absolute;
+  left: -3vw;
+  top: 0.8vw;
+}
+.why-to-choose-container .head-pi h1 {
+  margin-top: 2vw;
+}
+.why-to-choose-container .head-pi h1 span {
+  font-size: 3.3vw;
+  font-family: "Vary-bold", sans-serif;
+  font-weight: 900;
+  letter-spacing: 100%;
+  line-height: 100%;
+  color: #fff;
+}
+.why-to-choose-container .head-pi p {
+  padding: 1vw 15vw;
+}
+.why-to-choose-container .head-pi p span {
+  font-size: 1.15vw;
+  font-family: "VARY", sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  color: rgb(143, 141, 141);
+}
+.why-to-choose-container .why-choose-row {
+    width: 90%;
+    padding-top: 3vw;
+}
+.why-to-choose-container .wtc-card {
+  transition-duration: 0.3s;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+  margin-block-end: 1.5rem;
+}
+.why-to-choose-container .wtc-card:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.345);
+}
+.why-to-choose-container .wtc-card .avatar.avatar-rounded {
+  border-radius: 50%;
+}
+.why-to-choose-container .wtc-card .avatar {
+  position: relative;
+  height: 2.625rem;
+  width: 2.625rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+span {
+  transform: none;
+}
+.why-to-choose-container .wtc-card .bg-secondary {
+  background-color: rgb(35, 183, 229) !important;
+}

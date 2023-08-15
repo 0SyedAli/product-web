@@ -1,0 +1,104 @@
+.main-testimonial-container {
+  height: auto;
+  padding-top: 5rem;
+  position: relative;
+}
+.testimonial-bg-layer {
+  background-image: linear-gradient(#160045, #752996);
+  position: absolute;
+  height: 505px;
+  /* z-index: 9999; */
+  width: 100%;
+  top: 34%;
+}
+.testimonial-container {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+  backface-visibility: hidden;
+  padding: 1rem 0;
+}
+
+.inner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  min-width: 370px;
+  border-radius: 6px;
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  -webkit-transition: 150ms;
+  transition: 150ms;
+  padding: 20px 24px;
+
+  /* Remove transition here */
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(calc(0% + 0px)); /* Adjust the translation value */
+  }
+}
+
+.inner-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.inner-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inner-text p {
+  font-size: 14px;
+  color: #333;
+}
+.testimonial-content {
+  position: relative;
+  z-index: 99;
+  color: #fff;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-content h1 {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.testimonial-content button {
+  background-color: #a238ff;
+  border: 3px solid #a238ff;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  color: #ffffff;
+  box-shadow: 0 0 5px 0 #a238ff inset, 0 0 20px 5px #a238ff;
+  padding: 1.1rem 5rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.animate-left-to-right {
+  
+}

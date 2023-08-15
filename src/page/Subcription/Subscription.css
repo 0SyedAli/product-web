@@ -1,0 +1,158 @@
+.Subscribtion {
+  background-color: #232424;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  padding-top: 5%;
+  padding-bottom: 15%;
+  font-family: "Poppins" !important;
+}
+.Subscription .eye {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #232424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.Subscription img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.Subscribtion h1 {
+  font-weight: 500;
+  font-size: 2.7rem;
+  margin: 0.7rem 0 !important;
+  letter-spacing: 0;
+}
+.Subscription p {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  color: rgb(224, 228, 232);
+}
+
+.Subscription .btn-odr .btn {
+  background-color: #a238ff;
+  border-radius: 100px;
+  box-shadow: rgba(170, 56, 219, 0.451) 0 -25px 18px -14px inset,
+    rgba(170, 56, 219, 0.451) 0 1px 2px, rgba(170, 56, 219, 0.451) 0 2px 4px,
+    rgba(154, 44, 187, 0.25) 0 4px 8px, rgba(170, 56, 219, 0.451) 0 8px 16px,
+    rgba(185, 44, 187, 0.25) 0 16px 32px;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 2rem;
+}
+.Subscribtion .subscribe-form h5 {
+  margin-bottom: 3%;
+  font-size: 1.6rem;
+}
+.Subscribtion .subscribe-form form {
+  position: relative;
+}
+.Subscribtion .margin-top-subs {
+  margin-top: 5%;
+}
+.Subscribtion .subscribe-form form input {
+  width: 100%;
+  height: 80px;
+  border: 0;
+  padding: 0 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  overflow: visible;
+  border-radius: 50px;
+  box-shadow: 0px 2px 4px 0px #a238ff, -1px 0px 15px 7px #a238ff;
+}
+
+.Subscribtion .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.Subscribtion .subscribe-form form button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.Subscribtion .btn-sn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 0;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: #a238ff;
+  padding: 25px 40px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.subscribe-form form input::placeholder{
+  color: white;
+}
+@media (max-width: 650px) {
+  .Subscribtion h1 {
+    font-size: 6vw;
+    font-weight: 800;
+  }
+  .subscribe-form h5 {
+    font-size: 5vw !important;
+    margin-bottom: 1rem !important;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe-form h5 span{
+    display: none;
+  }
+  .subscribe-form form input{
+    padding: 0 20px!important;
+    height: 60px!important;
+  }
+  .subscribe-form form input::placeholder{
+    color: #232424;
+    font-size: 13px;
+  }
+  .Subscribtion .subscribe-form form button {
+    position: relative;
+    right: 0;
+    margin-top: 1.3rem;
+    box-shadow: rgba(170, 56, 219, 0.451) 0 -25px 18px -14px inset,
+      rgba(170, 56, 219, 0.451) 0 1px 2px, rgba(170, 56, 219, 0.451) 0 2px 4px,
+      rgba(154, 44, 187, 0.25) 0 4px 8px, rgba(170, 56, 219, 0.451) 0 8px 16px,
+      rgba(185, 44, 187, 0.25) 0 16px 32px;
+  }
+  .Subscribtion .btn-sn {
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+}

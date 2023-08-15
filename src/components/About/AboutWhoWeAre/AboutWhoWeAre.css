@@ -1,0 +1,12 @@
+.about-who-we-are {
+    padding: 10vw 15vw;
+
+}
+.awwe h1 span{
+    font-size: 3rem;
+    font-family: 'vary-bold',sans-serif;
+}
+.awwe p {
+    font-size: 1.3rem;
+    font-family: 'vary', sans-serif;
+}

@@ -1,0 +1,115 @@
+.Product-slides-2 .carousel {
+  width: 50%;
+  position: absolute;
+  height: auto;
+  right: 0px;
+  z-index: 9999;
+}
+.Product-slides-2 .carousel img {
+  height: 550px;
+  width: 100%;
+}
+.Product-slides-2 .carousel .computer {
+  /* height: 750px; */
+}
+.Product-slides-2 .carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+  /* width: 50vw; */
+}
+.Product-slides-2 .carousel-content h1 {
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+}
+.Product-slides-2 .carousel-content p {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4c4c4c;
+  text-align: center;
+}
+.Product-slides-2 .carousel-content a {
+  color: #000;
+}
+.Product-slides-2 .carousel-content a:hover {
+  color: Red;
+}
+.Product-slides-2 .carousel .carousel-indicators {
+  margin-bottom: -3rem;
+}
+.Product-slides-2 .carousel .carousel-control-prev,
+.Product-slides-2 .carousel-control-next {
+  display: none;
+}
+.Product-slides-2 .carousel-indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.Product-slides-2 .carousel-indicators button {
+  background-color: #fff;
+  width: 100px;
+  height: 8px;
+  border-radius: 5px!important;
+  margin: 0 7px;
+  cursor: pointer; /* Adjust this value as needed to set the spacing between indicators */
+}
+.carousel-indicators [data-bs-target] {
+  background-clip: inherit;
+  border: none;
+}
+@media (max-width: 998px) {
+  .Product-slides-2 .carousel {
+    height: 600px;
+  }
+  .Product-slides-2 .carousel img {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .Product-slides-2 .carousel {
+    height: 550px;
+    width: 100%;
+    z-index: 0;
+    top: 15%;
+  }
+  .Product-slides-2 .carousel img {
+    height: 550px;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .Product-slides-2 .carousel {
+    height: 500px;
+    width: 100%;
+    z-index: 0;
+    top: 15%;
+  }
+  .Product-slides-2 .carousel img {
+    height: 475px;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .Product-slides-2 .carousel {
+    height: 50vh;
+    width: 100%;
+    z-index: 0;
+    top: 22%;
+  }
+  .Product-slides-2 .carousel img {
+    height: 50vh;
+    width: 100%;
+  }
+  .Product-slides-2 .carousel .carousel-indicators button {
+    height: 11px;
+    width: 11px;
+  }
+  .Product-slides-2 .carousel-content h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}

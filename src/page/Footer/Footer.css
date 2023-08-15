@@ -1,0 +1,26 @@
+.myFooter {
+  background-image: linear-gradient(
+    45deg,
+    #752996 -20%,
+    #160045 60%,
+    #571884 110%
+  );
+  color: #ffff !important;
+  position: relative;
+  z-index: 2;
+}
+.social-link-border {
+  border: 2px solid rgba(186, 181, 181, 0.433);
+  padding: 10px 12px;
+  border-radius: 50%; 
+}
+.social-link-border-active {
+  padding: 10px 15px;
+}
+.myFooter .social-link-footer:hover {
+  background-color: #eeeeee36;
+}
+.myFooter .footer-text-hover:hover {
+  color: #fff;
+  font-weight: 1000;
+}

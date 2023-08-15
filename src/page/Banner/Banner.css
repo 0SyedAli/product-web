@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "Vary";
+  src: url("../../fonts/monotype-vary-light.otf");
+}
+@font-face {
+  font-family: "Vary-bold-1";
+  src: url("../../fonts/open-sans/OpenSans-Bold.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+.banner-section {
+  z-index: 99999;
+  background-image: linear-gradient(
+    45deg,
+    #752996 -20%,
+    #160045 60%,
+    #571884 110%
+  );
+  color: #fff !important;
+}
+.banner-section .banner-section-stars {
+  background-image: url(../../images/header_top_bg.png);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.banner-section .bg-curve-section {
+  width: 100%;
+}
+.banner-section .bg-curve-section img {
+  width: 100%;
+}
+.banner-container {
+  display: flex;
+  padding: 4.5rem 0;
+  justify-content: center;
+  padding-top: 130px;
+  position: relative;
+}
+.banner-container .left-banner,
+.right-banner {
+  z-index: 99999;
+}
+.banner-container .left-banner {
+  width: 50%;
+  padding: 0 1rem;
+  padding-top: .8rem;
+}
+.banner-container .left-banner h2 {
+  font-size: 2.8rem;
+  font-family: "Vary", sans-serif;
+  letter-spacing: 1px;
+}
+.banner-container .left-banner h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  margin: 0.8rem 0 2rem 0;
+}
+.banner-container .left-banner p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+}
+.banner-section .button {
+  padding: 1.1rem 5rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.banner-section .button-1 {
+  background-color: #a238ff;
+  border: 3px solid #a238ff;
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #ffffff;
+  box-shadow: 0 0 5px 0 #a238ff inset, 0 0 20px 5px #a238ff;
+}
+.banner-section .button-1:hover {
+  border: 3px solid #c27dfe;
+}
+
+.banner-container .email-banner {
+  width: 100%;
+}
+.banner-container .Subscribtion {
+  color: #ffff;
+  font-family: "Poppins";
+  font-family: "Poppins" !important;
+}
+.banner-container .Subscribtion .btn-odr .btn {
+  background-color: #a238ff;
+  border-radius: 100px;
+  box-shadow: rgba(170, 56, 219, 0.451) 0 -25px 18px -14px inset,
+    rgba(170, 56, 219, 0.451) 0 1px 2px, rgba(170, 56, 219, 0.451) 0 2px 4px,
+    rgba(154, 44, 187, 0.25) 0 4px 8px, rgba(170, 56, 219, 0.451) 0 8px 16px,
+    rgba(185, 44, 187, 0.25) 0 16px 32px;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 2rem;
+}
+.banner-container .Subscribtion .subscribe-form h5 {
+  margin-bottom: 3%;
+  font-size: 1.6rem;
+}
+.banner-container .Subscribtion .subscribe-form form {
+  position: relative;
+}
+.banner-container .Subscribtion .margin-top-subs {
+  margin-top: 5%;
+}
+.banner-container .Subscribtion .subscribe-form form input {
+  width: 100%;
+  height: 70px;
+  border: 0;
+  padding: 0 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  overflow: visible;
+  border-radius: 50px;
+  box-shadow: 0px 2px 4px 0px #a238ff, -1px 0px 15px 7px #a238ff;
+  outline: none;
+}
+
+.banner-container .Subscribtion .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.banner-container .Subscribtion .subscribe-form form button {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+}
+
+.banner-container .Subscribtion .btn-sn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 0;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: #a238ff;
+  padding: 27px 60px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.subscribe-form form input::placeholder {
+  color: grey;
+}
+.banner-container .right-banner {
+  width: 50%;
+}
+.banner-container .right-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.cta {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: white;
+  background: #a238ff;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  box-shadow: 0 0 20px 5px #b974f5;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 orange;
+  color: white;
+}
+
+.cta span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+span {
+  transform: skewX(15deg);
+}
+
+span:nth-child(2) {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+}
+
+/**************SVG****************/
+
+path.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+path.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+  50% {
+    fill: #fbc638;
+  }
+  100% {
+    fill: white;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 100px;
+  }
+  .banner-container .left-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:15px;
+
+  }
+  .banner-container .right-banner {
+    width: 100%;
+  }
+  .banner-container .left-banner h2 {
+    font-family: 'vary', sans-serif;
+    font-weight: 1000;;
+    letter-spacing: 3px;
+  }
+  .banner-container .left-banner h1 {
+    margin: 0;
+    font-size: 5rem;
+  }
+  .banner-container .left-banner .button {
+    padding: .7rem 9rem;
+    font-size: 1.3rem;
+  } 
+}
+
