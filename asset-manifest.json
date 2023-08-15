@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/product-web/static/css/main.2e49baf8.css",
+    "main.js": "/product-web/static/js/main.bbc4f9b6.js",
+    "static/js/787.91d84038.chunk.js": "/product-web/static/js/787.91d84038.chunk.js",
+    "static/media/desk1.png": "/product-web/static/media/desk1.b20721f64b7b34c97831.png",
+    "static/media/hero-mac.png": "/product-web/static/media/hero-mac.4d1c9c49aaf2f3361308.png",
+    "static/media/about-main.png": "/product-web/static/media/about-main.af11c2e98ae3b053471d.png",
+    "static/media/mobile-pr2.png": "/product-web/static/media/mobile-pr2.51e610196608a3666daf.png",
+    "static/media/logo-white.svg": "/product-web/static/media/logo-white.0c687680db0c050883e9.svg",
+    "static/media/product-image.png": "/product-web/static/media/product-image.e56bffaa983c72652e32.png",
+    "static/media/layout.png": "/product-web/static/media/layout.fe97626a61feb4c7df5b.png",
+    "static/media/OpenSans-Bold.ttf": "/product-web/static/media/OpenSans-Bold.043771c999cd4d47d9f3.ttf",
+    "static/media/OpenSans-ExtraBold.ttf": "/product-web/static/media/OpenSans-ExtraBold.8dafb2ac05778278072a.ttf",
+    "static/media/OpenSans-Regular.ttf": "/product-web/static/media/OpenSans-Regular.17e98b9e5586529b13cc.ttf",
+    "static/media/dashboard2.png": "/product-web/static/media/dashboard2.4a92b77d1d7ac54242f0.png",
+    "static/media/monotype-vary-light.otf": "/product-web/static/media/monotype-vary-light.2f43356b99487a5c1739.otf",
+    "static/media/dashboard.png": "/product-web/static/media/dashboard.28a2a51ec831eae0d0d6.png",
+    "static/media/bitting.jpg": "/product-web/static/media/bitting.6949ced006d5d3b07772.jpg",
+    "static/media/header_top_bg.png": "/product-web/static/media/header_top_bg.976a142ec43ef8ddd856.png",
+    "static/media/tracker.jpg": "/product-web/static/media/tracker.63ea76bbd21ac80035c1.jpg",
+    "static/media/carousel-img1.png": "/product-web/static/media/carousel-img1.0d914ba27be25e4afb48.png",
+    "static/media/chat-app.png": "/product-web/static/media/chat-app.fd0fe7321ec7fa196930.png",
+    "static/media/mobile-pr6.png": "/product-web/static/media/mobile-pr6.009d167fe76e3330bb8b.png",
+    "static/media/agile.png": "/product-web/static/media/agile.cf92cddcf161f5d51fc1.png",
+    "static/media/mobile-pr1.png": "/product-web/static/media/mobile-pr1.ee07808eb3b2f684aab9.png",
+    "static/media/contact-image-1-section-3.png": "/product-web/static/media/contact-image-1-section-3.c342804978418193de80.png",
+    "static/media/carousel-img3.png": "/product-web/static/media/carousel-img3.e81df1b7e59ba1fb97bb.png",
+    "static/media/carousel-img2.png": "/product-web/static/media/carousel-img2.335e98c542056761084d.png",
+    "index.html": "/product-web/index.html",
+    "static/media/wave_curve.svg": "/product-web/static/media/wave_curve.442926d72c23f079aa1709db12f3df94.svg",
+    "static/media/checkbox-email.svg": "/product-web/static/media/checkbox-email.b21ef9222990736578d5.svg",
+    "main.2e49baf8.css.map": "/product-web/static/css/main.2e49baf8.css.map",
+    "main.bbc4f9b6.js.map": "/product-web/static/js/main.bbc4f9b6.js.map",
+    "787.91d84038.chunk.js.map": "/product-web/static/js/787.91d84038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e49baf8.css",
+    "static/js/main.bbc4f9b6.js"
+  ]
+}
